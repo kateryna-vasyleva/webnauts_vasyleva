@@ -1,0 +1,50 @@
+.header .wrapper-top {background-color:#20242D;
+    ;}
+.wrapper-top .adress {
+
+}
+.wrapper-top .contacts {
+
+}
+.header .wrapper.bottom {
+    background-color: white;
+}
+.header .navigation a{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.header .navigation .active {
+    color: #FF7129;
+}
+.start-screen {background-color: wheat;}
+.start-screen .main-title{
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.start-screen .slogan {
+
+}
+.start-screen .btn {
+    background: #FF7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+   font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.start-screen .btn-scroll {
+    background: rgba(123, 126, 133, 0.4);
+    }
