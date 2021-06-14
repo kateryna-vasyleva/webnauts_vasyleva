@@ -26,9 +26,9 @@
 .start_screen {
     width: 1600px;
     height: 844px;
+    background: url(../img/bg_main.jpg), radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3);
     mix-blend-mode: multiply;
     opacity: 0.9;
-    background: url(../img/bg_main.jpg), radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3);
 }
 .start_screen .main_title{
     font-size: 92px;
@@ -61,21 +61,29 @@
 .start_screen .btn-scroll {
     background: rgba(123, 126, 133, 0.4);
 }
-.info_main .title {
+.info_main {
+    background: url(../img/main_info_bg.png);
+}
+.heading_page .title {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
+    color: #20242D;
 }
-.info_main .text {
+.heading_page .title_white {
+    color: #FFFFFF;
+}
+.heading_page .text_page {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    color: #20242D;
 }
 .footer {
     background-color: #20242D;
@@ -96,7 +104,19 @@
     }
 .footer .wrapper_bottom a{
     color: #7B7E85;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.footer .navigation :active {
+.footer .navigation .active {
     color: #FF7129;
+}
+.o_nas_page .heading_page {
+    background: url(../img/o_nas_image.jpg);
+}
+.o_nas_page .text_page {
+    background: url(../img/o_nas_txt_block.jpg);
 }

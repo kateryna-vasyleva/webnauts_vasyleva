@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O nas</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header class="header">
         <div class="wrapper_top">
-            <address>
+            <address class="adress">
                 Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek
             </address>
             <ul class="contacts">
@@ -33,32 +34,32 @@
         </div>
         <div class="wrapper_bottom">
         <a class="logo">
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logo.png" width="131" height="34" alt="logo">
         </a>
         <nav class="navigation">
-            <ul>
+            <ul class="main_menu">
                 <li>
-                    <a href="#">
+                    <a href="">
                         Strona główna
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="" class="active">
                         O nas
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="">
                         Projekty
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="">
                         Instalacja
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="">
                         Kontakt
                     </a>
                 </li>
@@ -66,14 +67,14 @@
         </nav>
         </div>
     </header>
-    <main>
+    <main class="o_nas_page">
         <section class="heading_page">
-            <h2 class="title title-white">
+            <h2 class="title title_white">
                 O nas
             </h2>
         </section>
-        <section class="info-page">
-            <div>
+        <section class="text_page">
+            <div class="left_block">
                 <p>
                     Jako firma Foton-Tech zapewniamy kompleksową obsługę od zaprojektowania systemu poprzez dostarczanie urządzeń po ich instalację oraz przyłączenie do sieci.
                 </p>
@@ -82,7 +83,7 @@
                     związanych z przyłączeniem instalacji do sieci eneregtycznej
                 </p>
             </div>
-            <div>
+            <div class="right_block">
                 <p>
                     Zadowolenie naszych Klientów jest dla nas sprawą najważaniejszą, dlatego też dokładamy wszelkich starań, aby zamówienia były realizowane błyskawicznie, a oferowany towar był najwyższej jakości.
                 </p>
@@ -92,44 +93,46 @@
     <footer class="footer">
         <div class="wrapper_top">
             <a href="#">
-                <img src="img/logo.png" alt="footer-logo">
+                <img src="img/logo.png" width="131" height="34" alt="footer-logo">
             </a>
             <nav class="navigation">
-                <ul>
+                <ul class="main_menu">
                     <li>
-                        <a href="#">
+                        <a href="">
                             Strona główna
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="" class="active">
                             O nas
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="">
                             Projekty
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="">
                             Instalacja
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="">
                             Kontakt
                         </a>
                     </li>
                 </ul>
             </nav>
-            <button class="btn btn-dark">
+            <button class="btn-dark">
                 Oddzwoń
             </button>
         </div>
         <div class="wrapper_bottom">
-            <a href="#"> Polityka prywatności</a>
-            <a href="#">Ochrona danych osobowych</a>
+            <ul class="link">
+                <li><a href="#"> Polityka prywatności</a></li>
+                <li><a href="#">Ochrona danych osobowych</a></li>
+            </ul>
         </div>
     </footer>
 </body>
