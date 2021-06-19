@@ -210,8 +210,11 @@ a {
     padding-top: 50px;
     
 }
-.footer .main_menu {
+.footer .navigation ul{
     display: flex;
+    align-items: center;
+}
+.footer .navigation li {
     margin-right: 56px;
 }
 .footer .main_menu a{
