@@ -32,7 +32,8 @@ a {
     text-decoration: none;
 }
 .container {        /*контейнер-центровшик*/
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
