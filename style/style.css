@@ -60,7 +60,14 @@ a {
     justify-content: space-between;
 }
 .wrapper_top .contacts li {
+    position: relative;
     margin-right: 56px;
+    padding-left: 20px;
+}
+.header .contacts svg {
+    position: absolute;
+    top: 3px;
+    left: 0px;
 }
 .wrapper_top .contacts li:last-child {
     margin-right: 0;
@@ -96,6 +103,17 @@ a {
 }
 .header .navigation .active {
     color: #FF7129;
+    position: relative;
+}
+.header .navigation .active ::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    background-color: #FF7129;
+    top: 9px;
+    left: 10px;
 }
 .start_screen {
     background: url(../img/bg_main.jpg);
