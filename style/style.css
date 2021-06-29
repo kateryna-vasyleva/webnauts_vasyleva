@@ -31,9 +31,12 @@ ul {
 a {
     text-decoration: none;
 }
+h2 {
+    margin: 0;
+    padding: 0;
+}
 .container {        /*контейнер-центровшик*/
     max-width: 1600px;
-    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
@@ -62,11 +65,11 @@ a {
 .wrapper_top .contacts li {
     position: relative;
     margin-right: 56px;
-    padding-left: 20px;
+    padding-left: 21px;
 }
 .header .contacts svg {
     position: absolute;
-    top: 3px;
+    top: 4px;
     left: 0px;
 }
 .wrapper_top .contacts li:last-child {
@@ -105,7 +108,7 @@ a {
     color: #FF7129;
     position: relative;
 }
-.header .navigation .active ::before{
+.header .navigation .active::before{
     position: absolute;
     content: "";
     display: block;
@@ -113,17 +116,60 @@ a {
     height: 1px;
     background-color: #FF7129;
     top: 9px;
-    left: 10px;
+    left: -18px;
+}
+.header .navigation .active::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    background-color: #FF7129;
+    top: 9px;
+    right: -18px;
 }
 .start_screen {
     background: url(../img/bg_main.jpg);
-    padding-top: 270px;
-    padding-bottom: 138px;
+ 
     background-size: cover;
     background-repeat: no-repeat;
         
 }
-.start_screen .main_title{
+.start_screen .container {
+    position: relative;
+    padding-top: 270px;
+    padding-bottom: 138px;
+}
+.start_screen .decor_word1 {
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: transparent;
+    text-transform: uppercase;
+    top: 167px;
+    left: 50px;
+}
+.start_screen .decor_word2 {
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    right: 50px;
+    bottom: 282px;
+}
+
+.start_screen .main_title {
     font-size: 92px;
     font-style: normal;
     font-weight: 700;
@@ -133,6 +179,7 @@ a {
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 16px;
+    
 }
 .start_screen .slogan {
     font-size: 16px;
@@ -148,7 +195,7 @@ a {
     margin-bottom: 59px;
    
 }
-.start_screen .btn {
+.start_screen .btn_pop_up {
     background: #FF7129;
     box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
     font-size: 14px;
@@ -178,19 +225,74 @@ a {
     background: url(../img/main_info_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 132px;
 }
 .info_main .container {
     display: flex;
+    margin-left: 200px;
+    margin-bottom: 115px;
 
 }
 .info_main .heading_page {
-    padding-left: 69px;
+    position: relative;
+    padding-top: 69px;
+    margin-bottom: 64px;
+    padding-left: 81px;
 }
-.info_main {
-    padding-top: 132px;
+.o_nas_page .heading_page {
+    position: relative;
     
 }
+.projecty_page .heading_page {
+    position: relative;
+}
+.heading_page .decor_word3 {
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(32, 36, 45, 0.1);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    top: 0px;
+    left: 36px;
+
+}
+.heading_page .decor_word4 {
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    top: 131px;
+    left: 173px;
+}
+
+.heading_page .decor_word5 {
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(32, 36, 45, 0.1);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    top: 56px;
+    left: 174px;
+
+}
 .heading_page .title {
+    position: relative;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -198,13 +300,25 @@ a {
     letter-spacing: 0em;
     text-align: left;
     color: #20242D;
-    padding-top: 69px;
-    margin-top: 0;
-    margin-bottom: 64px;
+    
+    
 }
+
 .heading_page .title_white {
     color: #FFFFFF;
 }
+.heading_page .title::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 52px;
+    background-color: #FF7129;
+    left: -16px;
+    top: 0px;
+
+}
+
 .heading_page .text_page {
     font-size: 16px;
     font-style: normal;
@@ -317,11 +431,11 @@ a {
     max-width: 534px;
 }
 
-.projecty_page .title {
-    margin-top: 123px;
+.projecty_page .heading_page {
+    padding-top: 123px;
     margin-bottom: 37px;
-    margin-left: 201px;
-    padding: 0;
+    padding-left: 218px;
+    
 }
 .slider ul {
     display: flex;
