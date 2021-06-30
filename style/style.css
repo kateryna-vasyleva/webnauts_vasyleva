@@ -42,6 +42,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;     
 }
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .header .wrapper_top {
     background-color:#20242D;
     padding-top: 10px;
