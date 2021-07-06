@@ -391,7 +391,7 @@ h2 {
     text-align: left;
     color: #FFFFFF;
 }
-.footer .btn-dark {
+.footer .btn_dark {
     background: #20242D;
     color: #FFFFFF;
     border: 1px solid #FF7129;
@@ -460,6 +460,7 @@ h2 {
     margin-bottom: 100px;
 }
 .pop_up {
+    display: none;
     position: fixed;
     width: 800px;
     height: 516px;
@@ -522,6 +523,6 @@ h2 {
 .pop_up .btn {
     margin-top: 40px;
 }
-.pop_up .input_name {
+.pop_up_show {
     display: block;
 }
